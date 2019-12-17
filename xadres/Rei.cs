@@ -1,11 +1,16 @@
 ﻿using tabuleiro;
 
-namespace xadrex_console.xadres
+namespace xadres
 {
     class Rei : Peca
     {
-        public Rei(Tabuleiro tab, Cor cor)  base(tab, cor)  {
+        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)  {
+            
             }
+        public override string ToString()
+        {
+            return "R";
+        }
 
     }
 }

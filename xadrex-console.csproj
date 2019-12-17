@@ -51,6 +51,7 @@
     <Compile Include="tabuleiro\Tabuleiro.cs" />
     <Compile Include="Tela.cs" />
     <Compile Include="xadres\Rei.cs" />
+    <Compile Include="xadres\Torre.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
