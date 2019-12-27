@@ -43,6 +43,8 @@ namespace xadrex_console
                     }
 
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
              }
             catch (TabuleiroException e)
             {
